@@ -1,4 +1,4 @@
-# Random Data Display and Sorting Based on ID
+# Javascript Code Solution - Random Data Display from an Array of Object and Sorting Based on Price
 
 This problem statemet will help developers to understand how to deal with the array of object. The entire code is written in ES6. This example will help developers to understand how to sort an array of object based on some key. Please feel free to comment if you have any suggestion.
 
