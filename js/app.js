@@ -83,7 +83,7 @@ class RandomDataDisplay{
                 if(a.price == b.price){
                     return a.id-b.id
                 }else{
-                    return a.price-b.price
+                    return b.price-a.price
                 }                
             });
 
