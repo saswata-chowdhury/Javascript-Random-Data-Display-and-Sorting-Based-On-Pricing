@@ -80,7 +80,11 @@ class RandomDataDisplay{
 
         sortData(){
             this.randArray = TABLE_DATA.sort(function(a, b){
-                return a.id-b.id
+                if(a.price == b.price){
+                    return a.id-b.id
+                }else{
+                    return a.price-b.price
+                }                
             });
 
             this.addRows(this.tableRef,this.randArray);
